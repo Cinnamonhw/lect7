@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, render_templatetouc 
+from flask import Flask, render_template 
 from nyt import get_article_data
 
 app = Flask(__name__)
